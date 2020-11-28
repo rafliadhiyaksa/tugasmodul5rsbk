@@ -73,6 +73,7 @@ export default class tekkom extends Component {
             <div>
                 <div className="boxWhite">
                     <center>
+                        <h1>KELOMPOK 5</h1>
                         <h1>BREAKING BAD CHARACTER</h1>
                     </center>
                     <div className="site-card-wrapper container">
@@ -90,6 +91,7 @@ export default class tekkom extends Component {
                                 <img
                                     alt="example"
                                     src= {results.img}
+                                    style={{height: '450px'}}
                                 />
                                 }
                                 actions={[
