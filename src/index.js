@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import kawalkorona from './kawalkorona';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import * as serviceWorker from './serviceWorker';
+
+import Tekkom from './tekkom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Tekkom />
   </React.StrictMode>,
   document.getElementById('root')
 );
